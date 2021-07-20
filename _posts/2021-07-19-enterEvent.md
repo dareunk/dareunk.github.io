@@ -12,6 +12,7 @@ toc: true
 
 * #### html
 
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -36,6 +37,7 @@ toc: true
 
 
 ![image](https://user-images.githubusercontent.com/83913407/126176041-92b942e9-2a8b-46f7-b480-e32b0732ea4d.png)
+
 
 
 ```javascript
@@ -72,6 +74,7 @@ Sinput.onkeyup = e =>{
 
 
 ![image](https://user-images.githubusercontent.com/83913407/126175446-92e5075f-cabd-463d-bd25-867cbead542c.png)
+
 
 
 ```javascript
