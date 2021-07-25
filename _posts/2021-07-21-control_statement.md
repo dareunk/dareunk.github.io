@@ -1,7 +1,7 @@
 ---
 title: "control statement"
 category:
-    - 실습
+    - Javascript
 tag:
     - javascript
     - 모던 자바스크립트 인문
@@ -402,3 +402,24 @@ for(var i=0,sum=0;i<a.length;i++){
 }
 console.log(sum); // -> 29
 ```
+
+각 요소의 값이 10의 이하인 배열을 찾고, 배열의 평균값을 구한 후 최대 평균값 구하기 
+
+```
+var a = [[2,4,6,8],[1,5,12,3],[7,6,8,5],[5,15,3,4],[3,2,9,4]];
+var max = Number.NEGATIVE_INFINITY;
+//Number.NEGATIVE_INFINITY는 음의 무한대를 나타내는 값//
+mainloop: for(var i=0;i<a.length;i++){
+    var average = 0;
+    for(var j=0;j<a[i].length;j++){
+        if(a[i][j]>10) continue mainloop; //10보다 큰 값이 있는 요소에서는 빠져나가 다시 루프 앞으로 돌아감//
+        average +=a[i][j];
+    }
+    average /= a[i].length;
+    console.log(`i = ${i}: 평균값: ${average}`);
+    if(max<average) max = average;
+}
+    console.log("최대 평균값 = " + max);
+
+```
+![image](https://user-images.githubusercontent.com/83913407/126894925-537b9bc6-1ec7-400a-bbbe-6feef964fa24.png)
