@@ -1,6 +1,6 @@
 ---
 title: "JAVASCRIPT의 특징"
-category:
+categories:
     - Javascript
 tag:
     - javascript

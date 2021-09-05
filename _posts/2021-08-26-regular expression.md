@@ -1,6 +1,6 @@
 ---
 title: "Regular Expression (1)"
-category:
+categories:
     - Javascript
 tag:
     - javascript

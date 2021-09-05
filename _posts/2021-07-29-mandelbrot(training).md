@@ -1,6 +1,6 @@
 ---
 title: "Mandelbrot set(실습)"
-category:
+categories:
     - 실습
 tag:
     - javascript

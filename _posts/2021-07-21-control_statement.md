@@ -1,6 +1,6 @@
 ---
 title: "control statement"
-category:
+categories:
     - Javascript
 tag:
     - javascript

@@ -1,6 +1,6 @@
 ---
 title: "Mandelbrot Set(이론)"
-category:
+categories:
     - 실습
 tag:
     - javascript

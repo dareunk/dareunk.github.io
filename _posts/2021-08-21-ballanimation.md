@@ -1,6 +1,6 @@
 ---
 title: "Ball Animation_공 튀기기"
-category:
+categories:
     - 실습
 tag:
     - javascript

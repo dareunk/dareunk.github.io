@@ -1,6 +1,6 @@
 ---
 title: "자바스크립트 프로그램 실행 과정"
-category:
+categories:
     - Javascript
 tag:
     - javascript

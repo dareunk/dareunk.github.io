@@ -1,6 +1,6 @@
 ---
 title: "TypedArray Method"
-category:
+categories:
     - Javascript
 tag:
     - javascript

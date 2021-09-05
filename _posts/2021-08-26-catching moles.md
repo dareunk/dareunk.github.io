@@ -1,6 +1,6 @@
 ---
 title: "두더지 잡기 게임"
-category:
+categories:
     - 실습
 tag:
     - javascript

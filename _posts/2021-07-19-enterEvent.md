@@ -1,6 +1,6 @@
 ---
 title: "Enter_event"
-category:
+categories:
     - 실습
 tag:
     - javascript
