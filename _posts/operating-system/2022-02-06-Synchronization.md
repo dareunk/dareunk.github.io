@@ -373,3 +373,4 @@ monitor DP //모니터이름
         for(int i=0;i<5;i++) state[i] = THINKING;
     }
 }
+```
