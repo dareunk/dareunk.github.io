@@ -5,6 +5,7 @@ categories:
 tags:
     - Operating System
 date: 2022-02-05
+toc: true
 ---
 
 ## CPU Scheduling 

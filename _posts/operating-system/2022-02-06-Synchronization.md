@@ -5,6 +5,7 @@ categories:
 tags:
     - Operating System
 date: 2022-02-06
+toc: true
 ---
 
 ## Process Synchronization
