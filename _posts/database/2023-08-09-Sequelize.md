@@ -31,13 +31,13 @@ _참고: <https://www.npmjs.com/package/sequelize>_
 
 * #### config/config.js
 
-1. config/config.json을 config/config.js로 수정
+1.config/config.json을 config/config.js로 수정
 
 ```
 mv config/config.json config/config.js
 ```
 
-2. dotenv활용해 다음과 같이 파일 수정
+2.dotenv활용해 다음과 같이 파일 수정
 
 ```
 require("dotenv").config();
@@ -63,13 +63,13 @@ module.exports = {
 
 * #### models/index.js
 
-1. sequelize인스턴스 생성을 위해 let sequelize을 다음과 같이 설정함
+- sequelize인스턴스 생성을 위해 let sequelize을 다음과 같이 설정함
 
 ```
 let sequelize = new Sequelize(config.database, config.username, config.password, config);
 ```
 
-2. 만약 config/config.json을 config/config.js로 바꾼 경우: 기존 index.js에는 default로 config.json으로 경로가 설정되어 있기 때문에 이를 수정
+- 만약 config/config.json을 config/config.js로 바꾼 경우: 기존 index.js에는 default로 config.json으로 경로가 설정되어 있기 때문에 이를 수정
 
 ```
 const config = require(__dirname + '/../config/config.js')[env];
@@ -348,7 +348,7 @@ hasOne, belongsTo, hasMany에서 옵션은 선택사항(foreignKey는 자동생�
 
 * #### 관계 설정 예시
 
-1. N:M 관계
+- N:M 관계
 
 
 ```js
@@ -362,7 +362,7 @@ db.Boo.belongsToMany(db.Foo, {through: "C"});
 ```
 
 
-2. 1:1관계
+- 1:1관계
 
 
 ```js
@@ -397,6 +397,14 @@ const db = require("./index"),
 
 ```
 
+### How to register models
+
+모델을 ./models 경로안에 생성했으면, 이를 ./models/index.js에 등록해줘야 한다.
+
+```
+db.user = require("./user.js")(sequelize,Sequelize);
+```
+
 
 ### Summary of process
 
@@ -412,10 +420,6 @@ const db = require("./index"),
 4. Make models in ./models
 
 5. Register models you made in ./models/index.js
-
-```
-db.user = require("./user.js")(sequelize,Sequelize);
-```
 
 6. Set relationships between models in ./models/index.js
 
