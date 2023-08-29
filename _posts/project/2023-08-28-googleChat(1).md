@@ -15,16 +15,16 @@ toc: true
 
 github address for code: <https://github.com/dareunk/googleChat>
 
-googleChat is a webstie, which people can talk to in real time. A user can make their own room, and others can enter the chatroom. People can chat and their talks save in the chat. It's conclued every chatrooms and chat's contents unless the user who made the chatroom deletes it.
+googleChat is a webstie, which people can talk to in real time. A user can make their own room, and others can enter the chatroom. People can chat and their talks save in the DB. It includes every chatrooms and chat's contents unless the user who made the chatroom deletes it.
 
-- I'll add the login function using google API. People can access the website with google account without signing up directly to the website. 
+- ~~I'll add the login function using google API. People can access the website with google account without signing up directly to the website.(completed)~~
 
 
 #### npm used in each function
 
 | function | npm |
-|----------|---------------|
-| login | passport, express-validator, bcrypt |
+|----------|------------------------|
+| login | passport, passport-local-sequelize, passport-google-oauth2,express-validator, bcrypt |
 | database | mysql2, sequelize |
 | chat | socket.io |
 
@@ -36,9 +36,19 @@ googleChat is a webstie, which people can talk to in real time. A user can make 
 
 ![image](https://github.com/dareunk/dareunk.github.io/assets/83913407/ec780125-7067-4885-b205-0fc89d0287ce)
 
-* Login 
+* Login - local or google
 
-![image](https://github.com/dareunk/dareunk.github.io/assets/83913407/d53775e6-bb6f-479f-be1a-fcf346670fb6)
+A user can logIn with local account or google account
+
+![image](https://github.com/dareunk/dareunk.github.io/assets/83913407/e3c3ef62-57a6-44f8-b0ad-d4a297eba259)
+
+**_login through google_**
+
+![image](https://github.com/dareunk/dareunk.github.io/assets/83913407/2b50324c-75e3-4570-84f8-d88e82d5fea8)
+
+**_login with local account signed up_**
+
+![image](https://github.com/dareunk/dareunk.github.io/assets/83913407/222e4b36-e6df-4f2e-9ba3-d78c94229758)
 
 
 * Sign up
@@ -59,6 +69,8 @@ googleChat is a webstie, which people can talk to in real time. A user can make 
 ### How to set a database
 
 There are three tables in the database.
+
+_There is no the table for google account_ 
 
 1. chat 
 2. chatroom
