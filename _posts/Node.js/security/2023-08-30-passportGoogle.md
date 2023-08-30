@@ -25,24 +25,24 @@ toc: true
 
 ### get a permission from google 
 
-1. Click Credentials 
+* Click Credentials 
 
 ![image](https://github.com/dareunk/dareunk.github.io/assets/83913407/8e0cdc6d-255b-4fa8-b64f-6b9f881600e7)
 
 
-2. Click Get a client Id and secret key
+* Click Get a client Id and secret key
 
 ![image](https://github.com/dareunk/dareunk.github.io/assets/83913407/f81e3cb2-6a6b-47ea-b5c5-6d8f14130157)
 
-3. fill a form
+* fill a form
 
 ![image](https://github.com/dareunk/dareunk.github.io/assets/83913407/1d95c5d9-5aff-4dc8-85a4-9c1b8ea75aef)
 
-**Authorized JavaScript origins: 본인 웹/앱사이트의 origin url**
+**_Authorized JavaScript origins: 본인 웹/앱사이트의 origin url_**
 
-**Authorized redirect URLs: google authentication이후 redirect되는 url(이 부분을 잘 유의해서 프로그래밍해야함)**
+**_Authorized redirect URLs: google authentication이후 redirect되는 url(이 부분을 잘 유의해서 프로그래밍해야함)_**
 
-4. Check your client ID, client secret, redirect URL
+* Check your client ID, client secret, redirect URL
 
 <hr>
 
