@@ -5,6 +5,7 @@ categories:
 tags:
     - Information
 date: 2023-09-24
+toc: true
 ---
 
 Summarization about Blockchain class at Sungshin University
