@@ -109,7 +109,7 @@ author:
   links:
     - label: "Programming Blog"
       icon: "fas fa-fw fa-link"
-      url: ""https://happyeunjin.tistory.com""
+      url: "https://happyeunjin.tistory.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
